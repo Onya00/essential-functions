@@ -8,7 +8,7 @@ def xmult(*args):
     return reduce(mul, args)
 
 def square(a):
-    return a ** 2
+    return a * a * a
 
 def cube(a):
-    return a ** 3
+    return a * a * a
